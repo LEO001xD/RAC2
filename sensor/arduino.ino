@@ -6,8 +6,8 @@
 #define NUM_SENSORS 4 
 VL53L0X sensors[NUM_SENSORS];
 
-const char *ssid = "Dx100";
-const char *password = "11111118";
+const char *ssid = "SSID";
+const char *password = "PASSWORD";
 const char *serverName = "APPS SCRIPT";
 
 const int xshutPins[NUM_SENSORS] = {16, 17, 18, 19};
